@@ -1,0 +1,101 @@
+/* ===== Estilo Hajime no Ippo ===== */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("descarga (7).jpeg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  backdrop-filter: brightness(0.3) blur(2px);
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #fff;
+  letter-spacing: 2px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+  color: #e50914; /* rojo intenso tipo boxeador */
+  text-shadow: 0 0 10px #e50914;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  padding: 40px;
+}
+
+main h2 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+main p {
+  font-size: 1.2em;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+button {
+  background: #e50914;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #e50914;
+}
+
+button:hover {
+  background: #fff;
+  color: #e50914;
+  box-shadow: 0 0 15px #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.9em;
+  color: #888;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  /* Si ya tienes fondo en el body, no necesitas repetirlo aquí */
+}
+
+.video-section {
+  margin-top: 20px;
+}
+
+.video {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
